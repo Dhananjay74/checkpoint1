@@ -132,8 +132,6 @@ table {
 
 /* Home custom style */
 
-/* header  */
-
 .header {
   background-color: rgb(19, 4, 102);
   text-align: center;
@@ -245,27 +243,16 @@ h3 {
   display: inline-block;
 }
 
-.second-parent {
-  width: 660px;
-  border: 2px solid gray;
-  margin: 24px auto;
-  font-size: 0;
-}
-
-.second-child {
-  width: 200px;
-  height: 180px;
-  margin: 10px;
-  background-color: gray;
-  display: inline-block;
-}
-
 .border-box {
   border: 2px solid black;
   box-sizing: border-box;
 }
 
 /* blog custom style */
+.cont {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .blog-parent {
   display: flex;
